@@ -1,0 +1,172 @@
+/* IMPORT FONT URL */
+/* GOOGLE FONTS IMPORT */
+@import url("https://fonts.googleapis.com/css2?family=Macondo&family=Open+Sans:ital,wght@1,300&family=Oxygen:wght@400;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+.body {
+  /* margin: 0; */
+  background-color: #021728;
+}
+/* HEADER */
+.title {
+  color: #ffd700;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.spl-font {
+  font-family: "Macondo", cursive;
+}
+.small {
+  font-size: 18px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pose1 {
+  width: 800px;
+}
+/* MAIN CONTAINER */
+.container {
+  padding-top: 90px;
+}
+#pose1 {
+  text-align: center;
+}
+.pose1-img {
+  width: 65%;
+}
+.decoration {
+  text-decoration: overline;
+}
+.invite-area {
+  margin-left: 15%;
+}
+.gold-text-normal {
+  color: gold;
+}
+.small-txt {
+  font-size: 15px;
+  font-weight: 100;
+}
+.pose-img {
+  width: 1200px;
+  transform: translateY(-40px);
+}
+.text-area {
+  color: gold;
+  font-family: "Oxygen", sans-serif;
+  padding-right: 30px;
+}
+.spl-word {
+  color: #fff;
+  font-weight: bold;
+}
+.sub-title {
+  color: gold;
+  font-family: "Oxygen", sans-serif;
+}
+.prizes {
+  color: gold;
+  font-family: "Oxygen", sans-serif;
+}
+.medium-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+#wrapper {
+  max-width: 1050px;
+  margin: 60px auto 60px auto;
+  /* background-color: #ddd; */
+}
+#outer {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+.itemwrapper {
+  display: table-cell;
+  vertical-align: top;
+  width: 100%;
+}
+.img {
+  /* max-width: 100%; */
+  width: 300px;
+  height: auto;
+}
+.border-radius {
+  border-radius: 10px;
+}
+.list-item {
+  color: #ffd700;
+  font-size: 15px;
+}
+.form {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.form label {
+  color: #ffd700;
+}
+.form .form-control {
+  border-color: #ffd700;
+  background-color: transparent;
+  color: gold;
+}
+.form .submit-btn {
+  background-color: #bba20f;
+  width: 100%;
+  transition: 0.3s ease;
+}
+.form .submit-btn:hover {
+  background-color: #ffd700;
+}
+form .form-control:focus {
+  background-color: #04223a;
+  color: #ffd700;
+}
+form .form-control input[type="radio"] {
+  color: red;
+}
+.card-guest {
+  width: 18rem;
+}
+.card-guest-extra-height {
+  height: 35rem;
+}
+.card-title {
+  color: #ffd700;
+}
+.card-text {
+  color: #fff;
+}
+/* RESPONSIVE CODE */
+@media only screen and (max-width: 568px) {
+  .flex {
+    display: block;
+  }
+  .card-guest {
+    width: 100%;
+  }
+  .card-guest-extra-height {
+    height: 44rem;
+  }
+  .medium-img {
+    width: 200px;
+    height: 200px;
+  }
+  .pose1-img {
+    width: 100%;
+  }
+  .main-title {
+    margin-top: 90px;
+  }
+  .gold-text-normal {
+    margin-top: 30px;
+    font-size: 30px;
+  }
+}
