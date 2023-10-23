@@ -33,6 +33,3 @@ This website is more than just an invitation; it's a celebration of art and cult
 
 We are thrilled to have you join us in celebrating the artistry, dedication, and talent of my sister as she takes the stage for her arangatram. Thank you for being a part of this journey!
 
----
-
-You can copy and paste this code into your `README.md` file for your "SARIKA ARANGATRAM INVITE" website. Be sure to replace `[https://your-website-url.com](https://your-website-url.com)` with the actual URL of your website. Customize any other sections as needed.
